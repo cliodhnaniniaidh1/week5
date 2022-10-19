@@ -13,4 +13,11 @@ public class Calc {
         System.out.println("The total of the two values together is: " + total);
         return total;
     }
+
+    public static int multiply(int x, int y){
+
+        int total = x*y;
+        System.out.println("Total: "+total);
+        return total;
+    }
 }
