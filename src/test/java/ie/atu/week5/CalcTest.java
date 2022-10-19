@@ -18,7 +18,7 @@ class CalcTest {
     @Test
     void testAdd(){
         //this test gets used when add() gets called
-
+        assertEquals(2,myCalc.add(1,1));
     }
 
     @AfterEach
