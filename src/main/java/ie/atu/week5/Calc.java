@@ -20,4 +20,16 @@ public class Calc {
         System.out.println("Total: "+total);
         return total;
     }
+
+    public static int subtract(int x, int y) {
+        if(y > x){
+            System.out.println("Error: Second number is greater than first number.");
+        }
+        else{
+            int total = x - y;
+            System.out.println("The total is " + total);
+            return total;
+        }
+        return 0;
+    }
 }
