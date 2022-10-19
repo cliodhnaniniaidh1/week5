@@ -31,6 +31,11 @@ class CalcTest {
         assertEquals(1,myCalc.subtract(4,3));
     }
 
+    @Test
+    void testDivide(){
+        assertEquals(1, myCalc.divide(2,2));
+    }
+
     @AfterEach
     void tearDown() {
     }
