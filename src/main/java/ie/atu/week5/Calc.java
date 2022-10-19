@@ -32,4 +32,11 @@ public class Calc {
         }
         return 0;
     }
+
+    public static int divide(int x, int y){
+
+        int total = x/y;
+        System.out.println("Total: "+total);
+        return total;
+    }
 }
